@@ -1,16 +1,57 @@
 {
-  "name": "@stack/witness-monorepo",
-  "version": "0.1.0",
-  "private": true,
-  "description": "witness — human-in-the-loop coordination primitive (Exemplar stack)",
+  "name": "@stack/witness",
+  "version": "0.1.1",
+  "description": "witness — TypeScript library + thin HTTP server for human-in-the-loop coordination",
   "license": "MIT",
-  "workspaces": ["ts"],
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    },
+    "./server": {
+      "types": "./dist/server/http.d.ts",
+      "import": "./dist/server/http.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "server",
+    "migrations",
+    "README.md",
+    "SPEC.md",
+    "ADR-001-extraction.md"
+  ],
   "scripts": {
-    "test": "npm --workspace ts test",
-    "build": "npm --workspace ts run build",
-    "server": "npm --workspace ts run server"
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "server": "tsx server/http.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "@hono/node-server": "^1.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcentire/witness.git"
+  },
+  "homepage": "https://github.com/jmcentire/witness#readme",
+  "bugs": {
+    "url": "https://github.com/jmcentire/witness/issues"
   }
 }

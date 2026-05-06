@@ -12,7 +12,7 @@
 // text search, timeseries) belongs in the consumer's own analytics
 // layer, not here.
 
-import type { Decision, DecisionId, DecisionStatus, SurfaceName } from './types.ts';
+import type { Decision, DecisionId, DecisionStatus, SurfaceName } from './types.js';
 
 /**
  * Filter shape for `query`. Everything is optional; combining filters

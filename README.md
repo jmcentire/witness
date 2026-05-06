@@ -36,6 +36,20 @@ V1 is a TypeScript library + thin HTTP server.
 - **Python client** (`witness-client`): async httpx client with
   Pydantic models matching the TS shapes.
 
+## TypeScript usage
+
+Install from the GitHub repo. The package's `prepare` script runs
+`tsc → dist/` at install time, so consumers get a fully built
+package with `.d.ts` files.
+
+```json
+{
+  "dependencies": {
+    "@stack/witness": "git+https://github.com/jmcentire/witness.git#v0.1.1"
+  }
+}
+```
+
 V2 may extract a standalone service if the operational footprint of
 embedding witness in every TS consumer becomes a problem; storage
 already lives in pg, so migration is mechanical.
@@ -139,26 +153,26 @@ async with WitnessClient(base_url="http://localhost:8787") as w:
   SPEC.md                     # charter
   ADR-001-extraction.md       # architecture lock (sim-vetted)
   README.md                   # this file
-  package.json                # workspace root
+  package.json                # @stack/witness (TS package, root-level)
+  tsconfig.json
+  tsconfig.build.json         # `prepare` emits dist/ via this
   migrations/
     001_witness_decisions.sql # canonical schema for the pg-backed store
-  ts/
-    package.json              # @stack/witness
-    src/
-      types.ts                # Decision, Approval, WitnessConfig, ...
-      persistence.ts          # pluggable DecisionStore (default: in-memory)
-      two-person.ts           # canonicalJson + SHA-256 context_hash
-      surfaces.ts             # dispatch + ACK + fallback machinery
-      tessera.ts              # audit hook integration (NoopTessera, StdoutTessera, InMemoryTessera)
-      logger.ts               # minimal structured logger
-      api.ts                  # WitnessInstance (ask / askAsync / listOpen / answer / cancel)
-      index.ts                # public surface
-    server/
-      http.ts                 # Hono routes for non-TS clients
-    tests/
-      test_two_person_state_based.test.ts
-      test_surface_ack.test.ts
-      test_api.test.ts
+  src/
+    types.ts                  # Decision, Approval, WitnessConfig, ...
+    persistence.ts            # pluggable DecisionStore (default: in-memory)
+    two-person.ts             # canonicalJson + SHA-256 context_hash
+    surfaces.ts               # dispatch + ACK + fallback machinery
+    tessera.ts                # audit hook integration
+    logger.ts                 # minimal structured logger
+    api.ts                    # WitnessInstance (ask / askAsync / listOpen / answer / cancel)
+    index.ts                  # public surface
+  server/
+    http.ts                   # Hono routes for non-TS clients
+  tests/
+    test_two_person_state_based.test.ts
+    test_surface_ack.test.ts
+    test_api.test.ts
   py/
     pyproject.toml
     src/witness_client/
@@ -222,7 +236,7 @@ Witness emits one Tessera event per decision lifecycle transition
 (`witness.decision.created`, `.first_answered`, `.closed`,
 `.cancelled`, `.context_changed`, `.fallback_fired`). The default
 client logs to stderr; production consumers wire a real Tessera SDK
-when one ships. See `ts/src/tessera.ts` for the contract.
+when one ships. See `src/tessera.ts` for the contract.
 
 ## Deployment story
 

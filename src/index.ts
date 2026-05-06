@@ -26,12 +26,12 @@ export type {
   TwoPersonPolicy,
   TwoPersonPolicyMap,
   WitnessConfig,
-} from './types.ts';
+} from './types.js';
 
-export { WitnessInstance } from './api.ts';
-export type { DecisionStore, DecisionQuery, DecisionUpdate } from './persistence.ts';
-export { setStore, getStore, __resetInMemoryStore } from './persistence.ts';
-export { contextHash, canonicalJson, contextStillMatches } from './two-person.ts';
+export { WitnessInstance } from './api.js';
+export type { DecisionStore, DecisionQuery, DecisionUpdate } from './persistence.js';
+export { setStore, getStore, __resetInMemoryStore } from './persistence.js';
+export { contextHash, canonicalJson, contextStillMatches } from './two-person.js';
 export {
   inboxSurface,
   pagerdutySurfaceStub,
@@ -39,19 +39,19 @@ export {
   emailSurfaceStub,
   smsSurfaceStub,
   defaultFallbackHook,
-} from './surfaces.ts';
+} from './surfaces.js';
 export {
   NoopTesseraClient,
   StdoutTesseraClient,
   InMemoryTesseraClient,
   defaultTesseraClient,
   buildEvent,
-} from './tessera.ts';
-export { setLogger } from './logger.ts';
-export type { Logger } from './logger.ts';
+} from './tessera.js';
+export { setLogger } from './logger.js';
+export type { Logger } from './logger.js';
 
-import { WitnessInstance } from './api.ts';
-import type { WitnessConfig } from './types.ts';
+import { WitnessInstance } from './api.js';
+import type { WitnessConfig } from './types.js';
 
 /**
  * Build a witness instance with the given configuration. Callers

@@ -17,11 +17,11 @@
 // Plus an optional Tessera audit hook.
 
 import { randomUUID } from 'node:crypto';
-import { getStore } from './persistence.ts';
+import { getStore } from './persistence.js';
 import {
   contextHash as computeContextHash,
   contextStillMatches,
-} from './two-person.ts';
+} from './two-person.js';
 import {
   type AckTracker,
   createAckTracker,
@@ -30,8 +30,8 @@ import {
   inboxSurface,
   markAcked,
   scheduleFallback,
-} from './surfaces.ts';
-import { buildEvent, defaultTesseraClient } from './tessera.ts';
+} from './surfaces.js';
+import { buildEvent, defaultTesseraClient } from './tessera.js';
 import type {
   AnswerResult,
   Approval,
@@ -43,7 +43,7 @@ import type {
   TesseraClient,
   TwoPersonPolicyMap,
   WitnessConfig,
-} from './types.ts';
+} from './types.js';
 
 const DEFAULT_TIMEOUT_MS = 24 * 60 * 60 * 1000;
 const DEFAULT_ACK_WINDOW_MS = 60 * 1000;

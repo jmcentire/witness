@@ -19,13 +19,13 @@
 //      `acknowledgeDelivery`. Slack might do this on a button click;
 //      email on a reply; PD on first ack.
 
-import { logger } from './logger.ts';
+import { logger } from './logger.js';
 import type {
   DecisionId,
   FallbackHook,
   SurfaceDispatcher,
   SurfaceName,
-} from './types.ts';
+} from './types.js';
 
 // ============================================================
 // Default surface: in-memory inbox (V1 stub).

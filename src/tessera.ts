@@ -14,8 +14,8 @@
 // fallback so witness never silently drops audit. When @stack/tessera
 // publishes an SDK, consumers wire it via WitnessConfig.tessera.
 
-import { logger } from './logger.ts';
-import type { TesseraClient, TesseraEvent } from './types.ts';
+import { logger } from './logger.js';
+import type { TesseraClient, TesseraEvent } from './types.js';
 
 /**
  * No-op client. Used when consumers explicitly disable audit (NOT the

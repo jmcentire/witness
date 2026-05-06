@@ -22,9 +22,9 @@
 
 import { serve } from '@hono/node-server';
 import { Hono } from 'hono';
-import { createWitness } from '../src/index.ts';
-import type { WitnessInstance } from '../src/api.ts';
-import type { WitnessConfig } from '../src/types.ts';
+import { createWitness } from '../src/index.js';
+import type { WitnessInstance } from '../src/api.js';
+import type { WitnessConfig } from '../src/types.js';
 
 export type HttpServerOptions = {
   witness?: WitnessInstance;
