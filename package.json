@@ -1,0 +1,16 @@
+{
+  "name": "@stack/witness-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "witness — human-in-the-loop coordination primitive (Exemplar stack)",
+  "license": "MIT",
+  "workspaces": ["ts"],
+  "scripts": {
+    "test": "npm --workspace ts test",
+    "build": "npm --workspace ts run build",
+    "server": "npm --workspace ts run server"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
