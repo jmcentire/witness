@@ -1,0 +1,343 @@
+{
+  "domains": [
+    "code",
+    "python",
+    "typescript"
+  ],
+  "node_count": 30,
+  "nodes": [
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-witness-3ed908a42014",
+      "title": "py/tests/test_client.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-witness-41320808d0e8",
+      "title": "py/src/witness_client/types.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-536a01d1d5f5",
+      "title": "src/surfaces.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-witness-6427cb288902",
+      "title": "py/src/witness_client/__init__.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-769911c416cc",
+      "title": "src/api.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-7bc1140e724e",
+      "title": "src/logger.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-witness-7bd9db27e228",
+      "title": "py/tests/conftest.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-a2a171449d86",
+      "title": "src/index.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-b6e1b629cadb",
+      "title": "src/two-person.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-witness-bd049762205c",
+      "title": "py/src/witness_client/client.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-c150e2063f62",
+      "title": "src/tessera.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-c54113cf61ec",
+      "title": "src/types.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-d74addbec177",
+      "title": "src/persistence.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-witness-df0a865ce41d",
+      "title": "server/http.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-witness-0d60a5fa7cfc",
+      "title": "Approval",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-witness-2d377eee14e8",
+      "title": "Decision",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-2df8c7c85883",
+      "title": "InMemoryTesseraClient",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-2fca7cdc8980",
+      "title": "SilentLogger",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-witness-3353837bfe71",
+      "title": "AnswerResult",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-395e366c1d85",
+      "title": "WitnessInstance",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-56a2f4c8ea78",
+      "title": "Logger",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-63770a9f46c2",
+      "title": "NoopTesseraClient",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-witness-66d43a98864e",
+      "title": "WitnessClient",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-7c6b5cedcb40",
+      "title": "DecisionStore",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-8c37fd1665c0",
+      "title": "InMemoryStore",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-witness-9185e4a7a8eb",
+      "title": "CancelResult",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-witness-9e14ede63a2c",
+      "title": "WitnessError",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-ba98318e8853",
+      "title": "TesseraClient",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-cf4200398d6b",
+      "title": "StderrLogger",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-witness-ed244783cd81",
+      "title": "StdoutTesseraClient",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:51:09",
+      "weight": 0.5
+    }
+  ],
+  "repo": "witness",
+  "source_updated_at": "2026-05-30T14:51:09",
+  "version": 1
+}
