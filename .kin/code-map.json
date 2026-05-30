@@ -1,655 +1,131 @@
 {
-  "version": "1.0.0",
-  "project": {
-    "name": "witness",
-    "description": "Code map exported from Kindex for witness.",
-    "languages": [
-      "Python",
-      "TypeScript"
-    ],
-    "frameworks": [],
-    "analyzedAt": "2026-05-24T15:10:24",
-    "gitCommitHash": "8a067270fc42ebb2d5de0aa42dfaac3c18ad6418"
-  },
-  "nodes": [
-    {
-      "id": "code-mod-witness-41320808d0e8",
-      "type": "file",
-      "name": "py/src/witness_client/types.py",
-      "filePath": "py/src/witness_client/types.py",
-      "summary": "Language: Python | Path: py/src/witness_client/types.py | ~108 lines ## Classes - AnswerResult(_CamelModel)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 5,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-mod-witness-bd049762205c",
-      "type": "file",
-      "name": "py/src/witness_client/client.py",
-      "filePath": "py/src/witness_client/client.py",
-      "summary": "Language: Python | Path: py/src/witness_client/client.py | ~227 lines ## Classes - WitnessClient",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 3,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-mod-witness-6427cb288902",
-      "type": "file",
-      "name": "py/src/witness_client/__init__.py",
-      "filePath": "py/src/witness_client/__init__.py",
-      "summary": "Language: Python | Path: py/src/witness_client/__init__.py | ~37 lines",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-mod-witness-7bd9db27e228",
-      "type": "file",
-      "name": "py/tests/conftest.py",
-      "filePath": "py/tests/conftest.py",
-      "summary": "Language: Python | Path: py/tests/conftest.py | ~87 lines ## Functions - event_loop() -> Iterator[asyncio.AbstractEventLoop]",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 4,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-mod-witness-3ed908a42014",
-      "type": "file",
-      "name": "py/tests/test_client.py",
-      "filePath": "py/tests/test_client.py",
-      "summary": "Language: Python | Path: py/tests/test_client.py | ~148 lines ## Functions - test_acknowledge_delivery(witness_base_url: str) -> None",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 8,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "artifact",
-        "toolTier": "C"
-      }
-    },
-    {
-      "id": "code-mod-witness-b6e1b629cadb",
-      "type": "file",
-      "name": "src/two-person.ts",
-      "filePath": "src/two-person.ts",
-      "summary": "Language: TypeScript | Path: src/two-person.ts | ~80 lines ## Functions - canonicalJson()",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 4,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-mod-witness-a2a171449d86",
-      "type": "file",
-      "name": "src/index.ts",
-      "filePath": "src/index.ts",
-      "summary": "Language: TypeScript | Path: src/index.ts | ~62 lines ## Functions - createWitness()",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-sym-witness-cf4200398d6b",
-      "type": "class",
-      "name": "StderrLogger",
-      "filePath": "src/logger.ts",
-      "summary": "class StderrLogger(Logger) (src/logger.ts:12)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-66d43a98864e",
-      "type": "class",
-      "name": "WitnessClient",
-      "filePath": "py/src/witness_client/client.py",
-      "summary": "class WitnessClient (py/src/witness_client/client.py:48) ## Methods - __aenter__(self) -> \"WitnessClient\"",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 10,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-9e14ede63a2c",
-      "type": "class",
-      "name": "WitnessError",
-      "filePath": "py/src/witness_client/client.py",
-      "summary": "class WitnessError(Exception) (py/src/witness_client/client.py:34)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-63770a9f46c2",
-      "type": "class",
-      "name": "NoopTesseraClient",
-      "filePath": "src/tessera.ts",
-      "summary": "class NoopTesseraClient(TesseraClient) (src/tessera.ts:24)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-ed244783cd81",
-      "type": "class",
-      "name": "StdoutTesseraClient",
-      "filePath": "src/tessera.ts",
-      "summary": "class StdoutTesseraClient(TesseraClient) (src/tessera.ts:35)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-witness-7bc1140e724e",
-      "type": "file",
-      "name": "src/logger.ts",
-      "filePath": "src/logger.ts",
-      "summary": "Language: TypeScript | Path: src/logger.ts | ~49 lines ## Classes - Logger",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 4,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-sym-witness-56a2f4c8ea78",
-      "type": "class",
-      "name": "Logger",
-      "filePath": "src/logger.ts",
-      "summary": "class Logger (src/logger.ts:5)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-2fca7cdc8980",
-      "type": "class",
-      "name": "SilentLogger",
-      "filePath": "src/logger.ts",
-      "summary": "class SilentLogger(Logger) (src/logger.ts:32)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-7c6b5cedcb40",
-      "type": "class",
-      "name": "DecisionStore",
-      "filePath": "src/persistence.ts",
-      "summary": "class DecisionStore (src/persistence.ts:64)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-8c37fd1665c0",
-      "type": "class",
-      "name": "InMemoryStore",
-      "filePath": "src/persistence.ts",
-      "summary": "class InMemoryStore(DecisionStore) (src/persistence.ts:80)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-witness-df0a865ce41d",
-      "type": "file",
-      "name": "server/http.ts",
-      "filePath": "server/http.ts",
-      "summary": "Language: TypeScript | Path: server/http.ts | ~223 lines ## Functions - buildHttpServer()",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 2,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-mod-witness-c150e2063f62",
-      "type": "file",
-      "name": "src/tessera.ts",
-      "filePath": "src/tessera.ts",
-      "summary": "Language: TypeScript | Path: src/tessera.ts | ~69 lines ## Classes - InMemoryTesseraClient(TesseraClient)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 5,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-sym-witness-2df8c7c85883",
-      "type": "class",
-      "name": "InMemoryTesseraClient",
-      "filePath": "src/tessera.ts",
-      "summary": "class InMemoryTesseraClient(TesseraClient) (src/tessera.ts:51)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-2d377eee14e8",
-      "type": "class",
-      "name": "Decision",
-      "filePath": "py/src/witness_client/types.py",
-      "summary": "class Decision(_CamelModel) (py/src/witness_client/types.py:43)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-witness-c54113cf61ec",
-      "type": "file",
-      "name": "src/types.ts",
-      "filePath": "src/types.ts",
-      "summary": "Language: TypeScript | Path: src/types.ts | ~266 lines ## Classes - TesseraClient",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-sym-witness-ba98318e8853",
-      "type": "class",
-      "name": "TesseraClient",
-      "filePath": "src/types.ts",
-      "summary": "class TesseraClient (src/types.ts:230)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-witness-d74addbec177",
-      "type": "file",
-      "name": "src/persistence.ts",
-      "filePath": "src/persistence.ts",
-      "summary": "Language: TypeScript | Path: src/persistence.ts | ~157 lines ## Classes - DecisionStore",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 5,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-mod-witness-536a01d1d5f5",
-      "type": "file",
-      "name": "src/surfaces.ts",
-      "filePath": "src/surfaces.ts",
-      "summary": "Language: TypeScript | Path: src/surfaces.ts | ~176 lines ## Functions - createAckTracker()",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 4,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-sym-witness-3353837bfe71",
-      "type": "class",
-      "name": "AnswerResult",
-      "filePath": "py/src/witness_client/types.py",
-      "summary": "class AnswerResult(_CamelModel) (py/src/witness_client/types.py:90)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-0d60a5fa7cfc",
-      "type": "class",
-      "name": "Approval",
-      "filePath": "py/src/witness_client/types.py",
-      "summary": "class Approval(_CamelModel) (py/src/witness_client/types.py:76)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-sym-witness-9185e4a7a8eb",
-      "type": "class",
-      "name": "CancelResult",
-      "filePath": "py/src/witness_client/types.py",
-      "summary": "class CancelResult(_CamelModel) (py/src/witness_client/types.py:105)",
-      "tags": [
-        "code",
-        "python"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "Python",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    },
-    {
-      "id": "code-mod-witness-769911c416cc",
-      "type": "file",
-      "name": "src/api.ts",
-      "filePath": "src/api.ts",
-      "summary": "Language: TypeScript | Path: src/api.ts | ~521 lines ## Classes - WitnessInstance",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 2,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "artifact",
-        "toolTier": "A"
-      }
-    },
-    {
-      "id": "code-sym-witness-395e366c1d85",
-      "type": "class",
-      "name": "WitnessInstance",
-      "filePath": "src/api.ts",
-      "summary": "class WitnessInstance (src/api.ts:62)",
-      "tags": [
-        "code",
-        "typescript"
-      ],
-      "complexity": 1,
-      "languageNotes": {
-        "language": "TypeScript",
-        "kindexType": "concept",
-        "toolTier": ""
-      }
-    }
-  ],
   "edges": [
     {
-      "source": "code-sym-witness-cf4200398d6b",
-      "target": "code-mod-witness-7bc1140e724e",
-      "type": "contains",
       "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-66d43a98864e",
-      "target": "code-mod-witness-bd049762205c",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-9e14ede63a2c",
-      "target": "code-mod-witness-bd049762205c",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-63770a9f46c2",
-      "target": "code-mod-witness-c150e2063f62",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-ed244783cd81",
-      "target": "code-mod-witness-c150e2063f62",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-56a2f4c8ea78",
-      "target": "code-mod-witness-7bc1140e724e",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-2fca7cdc8980",
-      "target": "code-mod-witness-7bc1140e724e",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-7c6b5cedcb40",
-      "target": "code-mod-witness-d74addbec177",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-8c37fd1665c0",
-      "target": "code-mod-witness-d74addbec177",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-2df8c7c85883",
-      "target": "code-mod-witness-c150e2063f62",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-2d377eee14e8",
-      "target": "code-mod-witness-41320808d0e8",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-ba98318e8853",
-      "target": "code-mod-witness-c54113cf61ec",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
-      "source": "code-sym-witness-3353837bfe71",
-      "target": "code-mod-witness-41320808d0e8",
-      "type": "contains",
-      "direction": "outbound",
-      "weight": 0.6
-    },
-    {
       "source": "code-sym-witness-0d60a5fa7cfc",
       "target": "code-mod-witness-41320808d0e8",
       "type": "contains",
-      "direction": "outbound",
       "weight": 0.6
     },
     {
-      "source": "code-sym-witness-9185e4a7a8eb",
+      "direction": "outbound",
+      "source": "code-sym-witness-2d377eee14e8",
       "target": "code-mod-witness-41320808d0e8",
       "type": "contains",
-      "direction": "outbound",
       "weight": 0.6
     },
     {
+      "direction": "outbound",
+      "source": "code-sym-witness-2df8c7c85883",
+      "target": "code-mod-witness-c150e2063f62",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-2fca7cdc8980",
+      "target": "code-mod-witness-7bc1140e724e",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-3353837bfe71",
+      "target": "code-mod-witness-41320808d0e8",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
       "source": "code-sym-witness-395e366c1d85",
       "target": "code-mod-witness-769911c416cc",
       "type": "contains",
+      "weight": 0.6
+    },
+    {
       "direction": "outbound",
+      "source": "code-sym-witness-56a2f4c8ea78",
+      "target": "code-mod-witness-7bc1140e724e",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-63770a9f46c2",
+      "target": "code-mod-witness-c150e2063f62",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-66d43a98864e",
+      "target": "code-mod-witness-bd049762205c",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-7c6b5cedcb40",
+      "target": "code-mod-witness-d74addbec177",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-8c37fd1665c0",
+      "target": "code-mod-witness-d74addbec177",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-9185e4a7a8eb",
+      "target": "code-mod-witness-41320808d0e8",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-9e14ede63a2c",
+      "target": "code-mod-witness-bd049762205c",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-ba98318e8853",
+      "target": "code-mod-witness-c54113cf61ec",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-cf4200398d6b",
+      "target": "code-mod-witness-7bc1140e724e",
+      "type": "contains",
+      "weight": 0.6
+    },
+    {
+      "direction": "outbound",
+      "source": "code-sym-witness-ed244783cd81",
+      "target": "code-mod-witness-c150e2063f62",
+      "type": "contains",
       "weight": 0.6
     }
   ],
   "layers": [
     {
+      "description": "Kindex-inferred api layer.",
       "id": "api",
       "name": "Api",
-      "description": "Kindex-inferred api layer.",
       "nodeIds": [
         "code-mod-witness-769911c416cc"
       ]
     },
     {
+      "description": "Kindex-inferred core layer.",
       "id": "core",
       "name": "Core",
-      "description": "Kindex-inferred core layer.",
       "nodeIds": [
         "code-mod-witness-41320808d0e8",
         "code-mod-witness-536a01d1d5f5",
@@ -665,9 +141,9 @@
       ]
     },
     {
+      "description": "Kindex-inferred domain layer.",
       "id": "domain",
       "name": "Domain",
-      "description": "Kindex-inferred domain layer.",
       "nodeIds": [
         "code-sym-witness-0d60a5fa7cfc",
         "code-sym-witness-2d377eee14e8",
@@ -688,27 +164,548 @@
       ]
     },
     {
+      "description": "Kindex-inferred test layer.",
       "id": "test",
       "name": "Test",
-      "description": "Kindex-inferred test layer.",
       "nodeIds": [
         "code-mod-witness-3ed908a42014",
         "code-mod-witness-7bd9db27e228"
       ]
     }
   ],
+  "nodes": [
+    {
+      "complexity": 1,
+      "filePath": "py/src/witness_client/__init__.py",
+      "id": "code-mod-witness-6427cb288902",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "py/src/witness_client/__init__.py",
+      "summary": "Language: Python | Path: py/src/witness_client/__init__.py | ~37 lines",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 10,
+      "filePath": "py/src/witness_client/client.py",
+      "id": "code-sym-witness-66d43a98864e",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "WitnessClient",
+      "summary": "class WitnessClient (py/src/witness_client/client.py:48) ## Methods - __aenter__(self) -> \"WitnessClient\"",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "py/src/witness_client/client.py",
+      "id": "code-sym-witness-9e14ede63a2c",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "WitnessError",
+      "summary": "class WitnessError(Exception) (py/src/witness_client/client.py:34)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 3,
+      "filePath": "py/src/witness_client/client.py",
+      "id": "code-mod-witness-bd049762205c",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "py/src/witness_client/client.py",
+      "summary": "Language: Python | Path: py/src/witness_client/client.py | ~227 lines ## Classes - WitnessClient",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "py/src/witness_client/types.py",
+      "id": "code-sym-witness-0d60a5fa7cfc",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "Approval",
+      "summary": "class Approval(_CamelModel) (py/src/witness_client/types.py:76)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "py/src/witness_client/types.py",
+      "id": "code-sym-witness-2d377eee14e8",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "Decision",
+      "summary": "class Decision(_CamelModel) (py/src/witness_client/types.py:43)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "py/src/witness_client/types.py",
+      "id": "code-sym-witness-3353837bfe71",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "AnswerResult",
+      "summary": "class AnswerResult(_CamelModel) (py/src/witness_client/types.py:90)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "py/src/witness_client/types.py",
+      "id": "code-sym-witness-9185e4a7a8eb",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "Python",
+        "toolTier": ""
+      },
+      "name": "CancelResult",
+      "summary": "class CancelResult(_CamelModel) (py/src/witness_client/types.py:105)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 5,
+      "filePath": "py/src/witness_client/types.py",
+      "id": "code-mod-witness-41320808d0e8",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "py/src/witness_client/types.py",
+      "summary": "Language: Python | Path: py/src/witness_client/types.py | ~108 lines ## Classes - AnswerResult(_CamelModel)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 4,
+      "filePath": "py/tests/conftest.py",
+      "id": "code-mod-witness-7bd9db27e228",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "py/tests/conftest.py",
+      "summary": "Language: Python | Path: py/tests/conftest.py | ~87 lines ## Functions - event_loop() -> Iterator[asyncio.AbstractEventLoop]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 8,
+      "filePath": "py/tests/test_client.py",
+      "id": "code-mod-witness-3ed908a42014",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "Python",
+        "toolTier": "C"
+      },
+      "name": "py/tests/test_client.py",
+      "summary": "Language: Python | Path: py/tests/test_client.py | ~148 lines ## Functions - test_acknowledge_delivery(witness_base_url: str) -> None",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 2,
+      "filePath": "server/http.ts",
+      "id": "code-mod-witness-df0a865ce41d",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "server/http.ts",
+      "summary": "Language: TypeScript | Path: server/http.ts | ~223 lines ## Functions - buildHttpServer()",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/api.ts",
+      "id": "code-sym-witness-395e366c1d85",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "WitnessInstance",
+      "summary": "class WitnessInstance (src/api.ts:62)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 2,
+      "filePath": "src/api.ts",
+      "id": "code-mod-witness-769911c416cc",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "src/api.ts",
+      "summary": "Language: TypeScript | Path: src/api.ts | ~521 lines ## Classes - WitnessInstance",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/index.ts",
+      "id": "code-mod-witness-a2a171449d86",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "src/index.ts",
+      "summary": "Language: TypeScript | Path: src/index.ts | ~62 lines ## Functions - createWitness()",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/logger.ts",
+      "id": "code-sym-witness-2fca7cdc8980",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "SilentLogger",
+      "summary": "class SilentLogger(Logger) (src/logger.ts:32)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/logger.ts",
+      "id": "code-sym-witness-56a2f4c8ea78",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "Logger",
+      "summary": "class Logger (src/logger.ts:5)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/logger.ts",
+      "id": "code-sym-witness-cf4200398d6b",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "StderrLogger",
+      "summary": "class StderrLogger(Logger) (src/logger.ts:12)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 4,
+      "filePath": "src/logger.ts",
+      "id": "code-mod-witness-7bc1140e724e",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "src/logger.ts",
+      "summary": "Language: TypeScript | Path: src/logger.ts | ~49 lines ## Classes - Logger",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/persistence.ts",
+      "id": "code-sym-witness-7c6b5cedcb40",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "DecisionStore",
+      "summary": "class DecisionStore (src/persistence.ts:64)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/persistence.ts",
+      "id": "code-sym-witness-8c37fd1665c0",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "InMemoryStore",
+      "summary": "class InMemoryStore(DecisionStore) (src/persistence.ts:80)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 5,
+      "filePath": "src/persistence.ts",
+      "id": "code-mod-witness-d74addbec177",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "src/persistence.ts",
+      "summary": "Language: TypeScript | Path: src/persistence.ts | ~157 lines ## Classes - DecisionStore",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 4,
+      "filePath": "src/surfaces.ts",
+      "id": "code-mod-witness-536a01d1d5f5",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "src/surfaces.ts",
+      "summary": "Language: TypeScript | Path: src/surfaces.ts | ~176 lines ## Functions - createAckTracker()",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/tessera.ts",
+      "id": "code-sym-witness-2df8c7c85883",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "InMemoryTesseraClient",
+      "summary": "class InMemoryTesseraClient(TesseraClient) (src/tessera.ts:51)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/tessera.ts",
+      "id": "code-sym-witness-63770a9f46c2",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "NoopTesseraClient",
+      "summary": "class NoopTesseraClient(TesseraClient) (src/tessera.ts:24)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/tessera.ts",
+      "id": "code-sym-witness-ed244783cd81",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "StdoutTesseraClient",
+      "summary": "class StdoutTesseraClient(TesseraClient) (src/tessera.ts:35)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 5,
+      "filePath": "src/tessera.ts",
+      "id": "code-mod-witness-c150e2063f62",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "src/tessera.ts",
+      "summary": "Language: TypeScript | Path: src/tessera.ts | ~69 lines ## Classes - InMemoryTesseraClient(TesseraClient)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 4,
+      "filePath": "src/two-person.ts",
+      "id": "code-mod-witness-b6e1b629cadb",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "src/two-person.ts",
+      "summary": "Language: TypeScript | Path: src/two-person.ts | ~80 lines ## Functions - canonicalJson()",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/types.ts",
+      "id": "code-sym-witness-ba98318e8853",
+      "languageNotes": {
+        "kindexType": "concept",
+        "language": "TypeScript",
+        "toolTier": ""
+      },
+      "name": "TesseraClient",
+      "summary": "class TesseraClient (src/types.ts:230)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "class"
+    },
+    {
+      "complexity": 1,
+      "filePath": "src/types.ts",
+      "id": "code-mod-witness-c54113cf61ec",
+      "languageNotes": {
+        "kindexType": "artifact",
+        "language": "TypeScript",
+        "toolTier": "A"
+      },
+      "name": "src/types.ts",
+      "summary": "Language: TypeScript | Path: src/types.ts | ~266 lines ## Classes - TesseraClient",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "type": "file"
+    }
+  ],
+  "project": {
+    "analyzedAt": "2026-05-24T17:35:39-05:00",
+    "description": "Code map exported from Kindex for witness.",
+    "frameworks": [],
+    "gitCommitHash": "475a7f388a58412e70fbf2f92be3c9fc1e4ee352",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "name": "witness"
+  },
   "tour": [
     {
-      "order": 1,
-      "title": "Api",
       "description": "Review 1 node(s) in the Api layer.",
       "nodeIds": [
         "code-mod-witness-769911c416cc"
-      ]
+      ],
+      "order": 1,
+      "title": "Api"
     },
     {
-      "order": 2,
-      "title": "Core",
       "description": "Review 11 node(s) in the Core layer.",
       "nodeIds": [
         "code-mod-witness-41320808d0e8",
@@ -722,11 +719,11 @@
         "code-mod-witness-c54113cf61ec",
         "code-mod-witness-d74addbec177",
         "code-mod-witness-df0a865ce41d"
-      ]
+      ],
+      "order": 2,
+      "title": "Core"
     },
     {
-      "order": 3,
-      "title": "Domain",
       "description": "Review 16 node(s) in the Domain layer.",
       "nodeIds": [
         "code-sym-witness-0d60a5fa7cfc",
@@ -745,16 +742,19 @@
         "code-sym-witness-ba98318e8853",
         "code-sym-witness-cf4200398d6b",
         "code-sym-witness-ed244783cd81"
-      ]
+      ],
+      "order": 3,
+      "title": "Domain"
     },
     {
-      "order": 4,
-      "title": "Test",
       "description": "Review 2 node(s) in the Test layer.",
       "nodeIds": [
         "code-mod-witness-3ed908a42014",
         "code-mod-witness-7bd9db27e228"
-      ]
+      ],
+      "order": 4,
+      "title": "Test"
     }
-  ]
+  ],
+  "version": "1.0.0"
 }
